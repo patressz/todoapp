@@ -1,0 +1,117 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: url('../img/mountians.jpg') center 0 no-repeat;
+    /* background-size: cover; */
+    background-color: #fafafa;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.container:after {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+header {
+    color: #fafafa;
+
+}
+
+header h2 {
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 20px;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    font-size: 40px;
+}
+
+main {
+    /* font-family: cursive; */
+    padding: 20px 20px 20px 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.add-new {
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    /* overflow: scroll; */
+    height: auto;
+}
+
+.list-item {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.list li {
+    position: relative;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 1px solid #e6e5ea;
+}
+
+.list li a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 6px;
+    float: right;
+}
+
+.list li a:hover {
+    color: #0d6efd;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.list-item p {
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+}
